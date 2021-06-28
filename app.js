@@ -14,10 +14,12 @@
      const val = add.querySelector('input[type="text"]').value;
      //creating elements
      const li = document.createElement('li');
-     const bookName = document.createElement('span').textContent = val;
-     const delBtn = document.createElement('span').textContent = "Delete";
+     const bookName = document.createElement('span');
+     const delBtn = document.createElement('span');
+     bookName.textContent = val;
+     delBtn.textContent = "Delete";
      bookName.classList.add('name');
-     delBttn.classList.add('delete');
+     delBtn.classList.add('delete');
      //Appending
      li.appendChild(bookName);
      li.appendChild(delBtn);
