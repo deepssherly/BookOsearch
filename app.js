@@ -20,6 +20,7 @@
      delBtn.textContent = "Delete";
      bookName.classList.add('name');
      delBtn.classList.add('delete');
+     delBtn.style.margin = "-15px 0";
      //Appending
      li.appendChild(bookName);
      li.appendChild(delBtn);
